@@ -1,0 +1,10 @@
+<div class="objetivos">
+                        <img class="objetivos-imagem" src="componentes/imgs/obj1.png">
+                        <img class="objetivos-imagem" src="componentes/imgs/obj2.png"> 
+                        <img class="objetivos-imagem" src="componentes/imgs/obj3.png"> 
+                            <div class="objetivos-descricao">
+                                <p>Agilidade</p>
+                                <p>Conforto</p>
+                                <p>Segurança</p>
+                            </div>
+                    </div>

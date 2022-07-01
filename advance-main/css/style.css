@@ -1,0 +1,224 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f8f4f4;
+    color:black;
+    font-family: 'poppinsregular';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.logo{
+    width: 7%;
+    height: 10%; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cabecalho{
+    width: 100%;
+    height: 10%; 
+    background-color: #acd4d0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 80px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+  
+}
+
+.logo-imagem{
+    height: 100px;
+    width: 100px;
+}
+.abas{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color:black;
+}
+
+a:hover{
+    color: #098c91;
+    transition: 0.3s all;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5%;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+.inicio{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.inicio-imagens{
+    width: 100%;
+    height: 100%; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+
+.inicio-texto{
+    display: flex;
+    flex-direction: column;
+}
+.background-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 135px;
+    background-color: #acd4d0;
+    border: 0px solid #acd4d0;
+    border-radius: 15px;
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+}
+
+.projeto-objetivos{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projeto-objetivos-texto{
+    display: flex;
+    flex-direction: column;
+}
+.projeto-imagem{
+    position: relative;
+    right: 0%;
+}
+.projeto-imagem-app{
+    
+}
+.imagens-objetivos{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.caixinha-imagem{
+    width: 70px;
+    height: 70px;
+  
+}
+.descricao-objetivos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contatos{
+    margin-top: 3%;
+}
+
+.contatos-integrantes{
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos-titulo{
+    width: 100%;
+    height: 10%; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contatos-integrantes-imagens{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.integrantes-imagens{
+    width: 200px;
+    height: 200px;
+    border-radius: 0px; 
+    transition: transform 1s;
+    transform: translateX(0) scale(1.0);
+}
+.integrantes-imagens:hover{
+    transform: translateX(10px) scale(1.2);
+}
+.contatos-integrantes-nome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pNome{
+    font-family: 'poppinsregular';
+    font-size: 15px;
+}
+
+.pFuncao{
+    font-family: 'poppinsmedium';
+    font-size: 15px;
+}
+.contatos-integrantes-funcoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contatos-integrantes-redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.insta{
+    width: 35px;
+    height: 35px;
+}
+.rodape{
+    width: 100%;
+    height: 10%; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.rodape-logo{
+    height: 100px;
+    width: 300px;
+}
